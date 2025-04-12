@@ -8,7 +8,7 @@ from datetime import datetime
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from datetime import datetime
-
+import os
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
